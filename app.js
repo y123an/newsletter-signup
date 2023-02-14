@@ -52,6 +52,6 @@ app.post("/", function (req, res) {
     request.write(jsonData);
     request.end();
 })
-app.listen(process.env.PORT || 3000, function () {
+app.listen(0.0.0.0:$PORT, function () {
     console.log("server is listening on port 3000");
 });
